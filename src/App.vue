@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <keep-alive> <!-- 目的是切换路由时, 组件不销毁 -->
+    <keep-alive exclude="Detail"> <!-- 目的是切换路由时, 组件不销毁 -->
       <router-view />
     </keep-alive>
     <main-tab-bar />
